@@ -4,7 +4,7 @@ var playlist = {
   Beyonce: "Irreplaceable"
 };
 
-function updatePlaylist(playlist, 'Nicki', 'Chun-Li'){
-  playlist['Nicki'] = 'Chun-Li'
+function updatePlaylist(playlist, artistName, songTitle){
+  playlist[artistName] = songTitle
   return playlist
 }
